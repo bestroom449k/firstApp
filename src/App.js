@@ -1,12 +1,13 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import LifecycleEx from './R004_LifecycleEx'
 
 function App() {
   return (
     <div>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <h1>Start React 200!</h1>
+      <p>CSS 적용하기</p>
+      <LifecycleEx></LifecycleEx>
     </div>
   );
 }
